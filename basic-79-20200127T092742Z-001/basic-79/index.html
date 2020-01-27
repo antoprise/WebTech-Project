@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Longtimedosee.com</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+
+    
+
+    <div id ="login">
+    <table>
+          <tr>
+          <td>Username:</td>
+          <td>
+         <input type="Text" name="name">
+        </td>
+        </tr>
+            <tr>
+             <td>Password:</td>
+              <td>
+                <input type="Password" name="pass">
+                  </td>
+                  </tr>
+                  </table>
+                  <input type="Submit" value="Submit">
+                   <a href="register.html">Register</a>
+      </div>
+
+     
+                    
+
+      <img src = "images/pic/1.png">
+
+     <!-- <h1><a href="#">Longtimedosee.com</a></h1>
+      <h2>GamingGear SHOP</h2>*/ -->
+
+  </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="#">Contact</a></li>
+        <img src = "images/pic/cart.png" width="20" height="20">(<span id="count">0</span>)
+      </ul>
+</nav>
+
+<div id ="logo">
+      <img src = "images/pic/ltds.png" width = "130" height = "120">
+    </div>
+
+  </header>
+</div>
+<!-- content -->
+
+<img class="mySlides" src="images/pic/banner1.jpg"  >
+<img class="mySlides" src="images/pic/banner2.jpg" >
+<img class="mySlides" src="images/pic/banner3.png" >
+<img class="mySlides" src="images/pic/banner4.jpg" >
+
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- content body -->
+
+<script >
+var slideIndex = 0;
+carousel();
+
+ function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+} 
+ var index = 0 ;
+ function addcart(){
+  index = index+1;
+  document.getElementById("count").innerHTML = index;
+}
+</script>
+
+
+    
+    <section id="shout">
+      <h1>" เว็บไซต์ขายอุปกรณ์เล่นเกมที่ใหญ่ที่สุด "</h1>
+      <p>&nbsp&nbsp&nbspร้าน Longtimedosee Gaming Gear SHOP&ASSESSORIES ของเรายินดีต้อนรับลูกค้าทุกท่านที่จะอุดหนุนสิ้นค้าของเรา เรามีอุปกรณ์ให้ท่านเลือกมากมายไม่ว่าจะเป็น เมาส์,คีย์บอร์ดหรือหูฟัง</p>
+    </section>
+    
+    <!-- main content -->
+     <div id ="pr">
+     <h1>Promotion & New Products</h1>
+   </div>
+    <section id="services" class="clear">
+      <!-- article 1 -->
+     
+      <article class="one_third">
+        <h2>Logitech G633 + Logitech G502 </h2>
+        <img src="images/pic/1.jpg" alt="">
+        <p>ซื้อหูฟัง Logitech G633 Artemis Spectrum RGB 7.1 Surround + เมาส์ Logitech G502 Proteus Spectrum - RGB</p>
+        <p>ราคา 5,590 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+      </article>
+      <!-- article 2 -->
+      <article class="one_third">
+        <h2>Logitech G512 + Logitech G703</h2>
+        <img src="images/pic/2.jpg" alt="">
+        <p>ซื้อหูฟัง Logitech G512 RGB Romer-G Mechanical Gaming Keyboard + เมาส์ Logitech G703 Wireless</p>
+        <p>ราคา 6,590 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+      </article>
+      <!-- article 3 -->
+      <article class="one_third lastbox">
+        <h2>TteSports MEKA PRO CHERRY MX Blue Gaming Keyboard - Key Thai</h2>
+        <img src="images/pic/3.png" alt="">
+        <p>ด้วยประสิทธิภาพของ Cherry MX Blue switch จึงทำให้สัมผัสเวลากดปุ่มมีความหนักแน่นมากยิ่งขึ้น เสียงขณะกดปุ่มนั้นเป็นเสียงที่ แน่นสามารถกดได้ง่ายตามคุณสมบัติของ Blue Switch ที่เป็น Switch 2 จังหวะ ตอบสนองได้ไว</p>
+        <p>ราคา 2,690 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+      </article>
+    </section>
+   
+    <section class="last clear">
+      <article class="one_third">
+        <h2>Sennheiser GSP 350 PC Gaming Headset Surround Sound </h2>
+        <img src="images/pic/4.png" alt="">
+        <p>ดีไซน์แบบเดียวกับ GSP 300 ที่ได้รับการอัพเกรดวัสดุ และ ระบบเสียงให้เป็นหูฟัง Surround 7.1 โดยใช้ระบบเสียง  Dolby 7.1 ที่เป็นระบบเสียงเดียวกับโรงภาพยนต์ ผ่านโปรแกรม Surround Dongle</p>
+        <p>ราคา 3,990 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+
+        <article class="one_third">
+        <h2>Cooler Master CM Strom MasterPulse MH320 Gaming Headset</h2>
+        <img src="images/pic/5.png" alt="">
+        <p>ถูกออกมาให้เป็นหูฟังที่มีคุณภาพเหมาะสำหรับเกมเมอร์ที่เริ่มต้นเล่นเกม เนื่องจากเป็นหูฟังที่ราคาไม่สูงจนเกินไปและเป็นหูฟังอเนกประสงค์ , MH320 น้ำหนักเบาเพียง 280g บริเวณ Headband มีโครงสร้างทำจากเหล็กให้ความแข็งแรง สามารถปรับระดับให้เข้ากับศรีษะของผู้เล่น</p>
+        <p>ราคา 2,690 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+
+        <article class="one_third lastbox">
+        <h2>Logitech G433 Surround Sound 7.1 Gaming Headset With DTS - Black</h2>
+        <img src="images/pic/6.png" alt="">
+        <p>ชุดหูฟังสำหรับเล่นเกมแบบมีสาย ระบบเซอร์ราวด์ 7.1 DTS HEADPHONE:X® 7.1 เปิดใช้งานด้วย DAC ที่ให้มา และซอฟต์แวร์ LOGITECH GAMING ตัวขับสัญญาณเสียงแบบตะแกรง PRO-G™ ที่อยู่ระหว่างการจดสิทธิบัตร ให้เสียงทุ้มกึกก้องและกังวานเที่ยงตรงปลอกผ้ากันน้ำ น้ำหนักเบาช่วยให้คุณพกพาประสิทธิภาพของพีซีไปด้วยในทุกที่</p>
+        <p>ราคา 3,690 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+    </section>
+
+    
+    <!-- / content body -->
+  </div>
+</div>
+<!-- footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">www.longtimedosee.com<br>"คิดถึงเกมมิ่งเกียร์คิดถึงเรา"</p>
+    <div id="contactpic">
+      <img src="images/pic/pay.png">
+    </div>
+</div>
+</body>
+</html>
