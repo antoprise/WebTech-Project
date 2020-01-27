@@ -1,0 +1,300 @@
+body{
+	margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#000000  ; background-color:#FFFFFF;
+   
+
+}
+
+.clear:after{
+	content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;
+}
+.clear{
+	display:block; clear:both;
+}
+html[xmlns] .clear{
+	display:block;
+}
+* html .clear{
+	height:1%;
+}
+
+a{
+	outline:none; text-decoration:none;
+}
+
+code{
+	font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.fl_left{
+	font-size: 18px;
+	text-align: center;
+}
+.fl_right{
+	float:right;
+}
+
+img{
+	margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;
+}
+.imgholder, .imgl, .imgr{
+	padding:4px; border:1px solid #D6D6D6; text-align:center;
+}
+.imgl{
+	float:left; margin:0 15px 15px 0; clear:left;
+}
+.imgr{
+	float:right; margin:0 0 15px 15px; clear:right;
+}#logo{
+	margin-left: -370px;
+	padding-bottom: 30px;
+}.mySlides{
+	margin: auto auto;
+
+}#shout h1{
+	color: #979797;
+}#shout p{
+	color:#000000;
+}#login {
+	float: right;
+	margin-bottom: 0;
+	padding-right: 60px;
+ }#butregis{
+ 		float : right;
+ 		margin-top: 60px;
+        margin-left: 180px;
+ }#regis{
+ 		float : right;
+ 		margin-top: 50px;
+ 		color : #000000;
+ 		margin-right: -150px;
+}#pr h1{
+	font-size: 40px; text-align: center;
+	color: orange;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}#contactpic{
+	text-align: center;
+}#one_third p{
+	text-align: center;
+}#content fieldset{
+  margin-right: 120px;
+  margin-left: 120px;
+  margin-bottom: 30px;
+   border-radius: 10px;
+   border-color: orange;
+   padding-bottom: 20px;
+   padding-top:20px;
+}#content h3{
+	padding-bottom: 20px;
+	color:#63B8FF;
+}#login {
+	padding-bottom: -40px;
+}#content h1{
+	color:#63B8FF;
+}#policy h3{
+	text-align: left;
+	color:#63B8FF;
+}#policy p{
+text-align: left;
+
+}#map{
+	padding-bottom: 20px;
+}#cart img{
+	width: 20px;
+	height: 20px;
+	padding-right: -90px
+
+}#colorbg {
+	background-color: #E9967A;
+	width: 960px;
+    margin: auto auto;
+    padding-bottom: 20px;
+}#icon {
+	width: 40px;
+	height: 40px;
+}
+
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
+
+q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+q:before{content:'“ '; font-size:26px;}
+q:after{content:' „'; font-size:26px; line-height:0;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{
+	display:block; width:960px; margin:0 auto; padding:0; text-align:center;
+}
+
+.row1{
+	color:#000000; background-color:#FFFFFF;
+}
+.row1 a{
+    
+}
+.row2{
+	color:#000000; background-color:#FFFFFF;
+}
+.row2 a{
+	color:#63B8FF; 
+}
+.row3{
+	border-top:1px solid #FF9900;
+}
+.row3, .row3 a{
+	color:#979797; background-color:#FFFFFF;-->
+}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer{
+	display:block; width:960px;
+}
+
+nav ul{
+	margin:0; padding:0; list-style:none;
+	
+	margin-top: -10px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin:0; padding:0; font-size:16px; font-weight:bold; font-style:normal; line-height:normal; text-transform:uppercase;
+}
+
+address{
+	font-style:normal;
+}
+
+blockquote, q{
+	display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;
+}
+blockquote:before, q:before{
+	content:'“ '; font-size:26px;
+}
+blockquote:after, q:after{
+	content:' „'; font-size:26px; line-height:0;
+}
+
+.one_third, .two_third, .three_third{
+	display:block; float:left; margin:0 30px 0 0;
+	margin-top: 50px;
+}
+.one_third{
+	width:300px;
+}
+.two_third{
+	width:630px;
+}
+.three_third{
+	width:960px; float:none; margin-right:0; clear:both;
+}
+.lastbox{
+	margin-right:0;
+}
+	
+
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{}
+
+#header #hgroup{
+	padding:20px 0 0 0; float:left;
+    margin-bottom: -40px;
+
+}
+#header #hgroup h1, #header #hgroup h2{
+	font-weight:normal; text-transform:none;
+    
+}
+#header #hgroup h1{
+	font-size:36px;
+
+}
+#header #hgroup h2{
+	font-size:13px;
+}
+
+#header nav{
+	display:block; float:right; margin:20px 0 0 0; padding:20px 0;
+	margin-top: 70px;
+}
+#header nav ul{}
+#header nav li{
+	display:inline; margin-right:25px; text-transform:uppercase;
+
+}
+#header nav li.last{
+	margin-right:0;
+}
+#header nav li a{
+	padding:5px 8px; color: #A52A2A; background-color:#FFFFFF;
+}
+#header nav li a:hover{
+	color:#FF9900; background-color:#FFFFFF;
+}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+#container{padding:30px 0;}
+#container section{
+	display:block; width:100%; margin:0 0 30px 0; padding:0;
+}
+#container .last{
+	margin:0;
+}
+#container .more{
+	text-align:center;
+}
+
+
+/* ------Shout-----*/
+
+#container #shout{
+	margin-bottom:50px; padding:30px 0; border-top:1px solid #FF9900; border-bottom:1px solid #FF9900;
+}
+#container #shout h1{
+	font-size:56px; font-weight:normal; font-style:italic; text-transform:uppercase; text-align:center;
+}
+#container #shout p{
+	font-size:16px; margin-bottom:0; padding-bottom:0; line-height:1.8em;
+}
+
+/* ------services-----*/
+
+#container #services{
+	margin-bottom:50px; line-height:1.6em;
+	background-color: #EED5B7;
+	padding-top: 20px;
+	border-radius: 10px;
+	width: 968px;
+	height: 300px;
+	;
+}
+#container #services article{
+
+}
+#container #services article h2{
+	font-size:14px; margin-bottom:15px;
+}
+#container #services article p{
+	margin:0; padding:0;
+}
+#container #services article img{
+	float:left; width:80px; height:80px; margin:0 10px 10px 0; padding:4px; border:1px solid #DEDEDE;
+}
+#container #services article footer{
+	margin:10px 0 0 0;
+}
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+#footer{
+	padding:20px 0;
+}
+#footer p{
+	margin:0; padding:0;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Longtimedosee | Registered</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      
+    <div id ="login">
+    <table>
+          <tr>
+          <td>Username:</td>
+          <td>
+         <input type="Text" name="name">
+        </td>
+        </tr>
+            <tr>
+             <td>Password:</td>
+              <td>
+                <input type="Password" name="pass">
+                  </td>
+                  </tr>
+                  </table>
+                  <input type="Submit" value="Submit">
+                   <a href="register.html">Register</a>
+      </div>
+                    
+
+      <img src = "images/pic/1.png">
+
+     <!-- <h1><a href="#">Longtimedosee.com</a></h1>
+      <h2>GamingGear SHOP</h2>*/ -->
+
+  </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+</nav>
+<div id ="logo">
+      <img src = "images/pic/ltds.png" width = "130" height = "120">
+    </div>
+
+  
+  </header>
+</div>
+<!-- content -->
+
+<img class="mySlides" src="images/pic/banner1.jpg"  >
+<img class="mySlides" src="images/pic/banner2.jpg" >
+<img class="mySlides" src="images/pic/banner3.png" >
+<img class="mySlides" src="images/pic/banner4.jpg" >
+
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- content body -->
+
+<script >
+var slideIndex = 0;
+carousel();
+
+ function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+ <section id="shout">
+      <h1>" ขอบคุณที่ร่วมเป็นส่วนหนึ่งกับเรา "</h1>
+     
+    </section>
+  
+
+<div id="content">
+                <h1>สมัครสมาชิก</h1>
+                <h3>Register</h3>
+                <fieldset>
+                   <center>
+                    <form>
+                        <table>
+                            <tr>
+                                <td>ชื่อผู้ใช้* :</td>
+                                <td>
+                                    <input type = "text" name="username" value="" pattern="[a-zA-Z0-9]{10,18}" placeholder="10-18 ตัวอักษร" autofocus required> [ควรมีตัวพิมพ์ใหญ่และตัวเลขอย่างน้อย 1 ตัว]</td>
+                            </tr>
+                            <tr>
+                                <td>รหัสผ่าน* :</td>
+                                <td>
+                                    <input type="password" name="pass" value="" pattern="[a-zA-Z0-9]{10,15}" placeholder="10-15 ตัวอักษร" required> [ควรมีตัวพิมพ์ใหญ่และตัวเลขอย่างน้อย 1 ตัว]</td>
+                            </tr>
+                            <tr>
+                                <td>ยืนยันรหัสผ่าน* :</td>
+                                <td>
+                                    <input type="password" value="" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ชื่อ* :</td>
+                                <td>
+                                    <input type="text" name="custName" value="" pattern="[a-zA-Z]" required> [ภาษาอังกฤษ]</td>
+                            </tr>
+                            <tr>
+                                <td>เลขบัตรประจำตัวประชาชน* :</td>
+                                <td>
+                                    <input type="text" name="custSurname" value="" pattern="[0-9]{13}" placeholder="ตัวเลข 13 หลัก" required></td>
+                            </tr>
+                            <tr>
+                                <td>ที่อยู่ :</td>
+                                <td>
+                                    <textarea cols="50" rows="10" namw="custAddress"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>เบอร์โทรศัพท์ : </td>
+                                <td>
+                                    <input type="tel" name="nbphone" value="" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>อีเมลล์* : </td>
+                                <td>
+                                    <input type="email" name="mail" value="" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>วันเกิด : </td>
+                                <td>
+                                    <input type="date" name="birthday" value="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>เพศ :</td>
+                                <td>
+                                    <input type="radio" name="sex" value="male">ชาย
+                                    <input type="radio" name="sex" value="female">หญิง</td>
+                            </tr>
+                            <tr>
+                                 <td>  </td>
+                                 <td>
+                                     <input name="Agree" type="checkbox" id="Agree" value="Y" required>ฉันได้อ่านและยอมรับนโยบายของเว็บไซต์แล้ว<br>
+                                     <a href = "policy.html">นโยบาย</a>
+                                <td>
+
+                              </tr>
+                        </table>
+
+                        <br>
+                        <div id="button">
+                            <input type=reset value="Clear"></input>
+                            <input type="submit" value="Submit"></input>
+                        </div>
+               </form>
+                  </center>
+                </fieldset>
+            </div>
+<!-- footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">www.longtimedosee.com<br>"คิดถึงเกมมิ่งเกียร์คิดถึงเรา"</p>
+    <div id="contactpic">
+      <img src="images/pic/pay.png">
+    </div>
+</div>
+</body>
+</html>

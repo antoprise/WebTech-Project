@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Longtimedosee.com</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+
+    
+
+    <div id ="login">
+    <table>
+          <tr>
+          <td>Username:</td>
+          <td>
+         <input type="Text" name="name">
+        </td>
+        </tr>
+            <tr>
+             <td>Password:</td>
+              <td>
+                <input type="Password" name="pass">
+                  </td>
+                  </tr>
+                  </table>
+                  <input type="Submit" value="Submit">
+                   <a href="register.html">Register</a>
+      </div>
+
+     
+                    
+
+      <img src = "images/pic/1.png">
+
+     <!-- <h1><a href="#">Longtimedosee.com</a></h1>
+      <h2>GamingGear SHOP</h2>*/ -->
+
+  </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+</nav>
+
+<div id ="logo">
+      <img src = "images/pic/ltds.png" width = "130" height = "120">
+    </div>
+
+  </header>
+</div>
+<!-- content -->
+
+<img class="mySlides" src="images/pic/banner1.jpg"  >
+<img class="mySlides" src="images/pic/banner2.jpg" >
+<img class="mySlides" src="images/pic/banner3.png" >
+<img class="mySlides" src="images/pic/banner4.jpg" >
+
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- content body -->
+
+<script >
+var slideIndex = 0;
+carousel();
+
+ function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+} 
+ var index = 0 ;
+ function addcart(){
+  index = index+1;
+  document.getElementById("count").innerHTML = index;
+}
+</script>
+
+
+    
+    <section id="shout">
+      <h1>" เว็บไซต์ขายอุปกรณ์เล่นเกมที่ใหญ่ที่สุด "</h1>
+      <p>&nbsp&nbsp&nbspร้าน Longtimedosee Gaming Gear SHOP&ASSESSORIES ของเรายินดีต้อนรับลูกค้าทุกท่านที่จะอุดหนุนสิ้นค้าของเรา เรามีอุปกรณ์ให้ท่านเลือกมากมายไม่ว่าจะเป็น เมาส์,คีย์บอร์ดหรือหูฟัง</p>
+    </section>
+    
+    <!-- main content -->
+     <div id ="pr">
+     <h1>Contact with us</h1>
+   </div>
+   
+<div id="ct">
+      <h2>Follow Us</h2>
+      <ul class="style">
+        <img src="images/pic/fb.png" id="icon"> : <a href="https://www.facebook.com/">facebook.com/longtimedoseeshop</a>
+        <img src="images/pic/ig.png" id="icon"> : <a href="https://www.instagram.com/">instagram.com/longtimedoseeshop</a>
+        <img src="images/pic/tw.png" id="icon"> : <a href="https://www.twitter.com/">twitter.com/longtimedoseeshop</a>
+        
+      </ul>
+    </div>
+
+
+
+    
+    <!-- / content body -->
+  </div>
+</div>
+<!-- footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">www.longtimedosee.com<br>"คิดถึงเกมมิ่งเกียร์คิดถึงเรา"</p>
+    <div id="contactpic">
+      <img src="images/pic/pay.png">
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Longtimedosee.com</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+
+    
+
+    <div id ="login">
+    <table>
+          <tr>
+          <td>Username:</td>
+          <td>
+         <input type="Text" name="name">
+        </td>
+        </tr>
+            <tr>
+             <td>Password:</td>
+              <td>
+                <input type="Password" name="pass">
+                  </td>
+                  </tr>
+                  </table>
+                  <input type="Submit" value="Submit">
+                   <a href="register.html">Register</a>
+      </div>
+
+     
+                    
+
+      <img src = "images/pic/1.png">
+
+     <!-- <h1><a href="#">Longtimedosee.com</a></h1>
+      <h2>GamingGear SHOP</h2>*/ -->
+
+  </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <img src = "images/pic/cart.png" width="20" height="20">(<span id="count">0</span>)
+      </ul>
+</nav>
+
+<div id ="logo">
+      <img src = "images/pic/ltds.png" width = "130" height = "120">
+    </div>
+
+  </header>
+</div>
+<!-- content -->
+
+<img class="mySlides" src="images/pic/banner1.jpg"  >
+<img class="mySlides" src="images/pic/banner2.jpg" >
+<img class="mySlides" src="images/pic/banner3.png" >
+<img class="mySlides" src="images/pic/banner4.jpg" >
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- content body -->
+
+<script >
+var slideIndex = 0;
+carousel();
+
+ function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+} 
+
+ var index = 0 ;
+ function addcart(){
+  index = index+1;
+  document.getElementById("count").innerHTML = index;
+}
+</script>
+
+
+    
+    <section id="shout">
+      <h1>" เว็บไซต์ขายอุปกรณ์เล่นเกมที่ใหญ่ที่สุด "</h1>
+      <p>&nbsp&nbsp&nbspร้าน Longtimedosee Gaming Gear SHOP&ASSESSORIES ของเรายินดีต้อนรับลูกค้าทุกท่านที่จะอุดหนุนสิ้นค้าของเรา เรามีอุปกรณ์ให้ท่านเลือกมากมายไม่ว่าจะเป็น เมาส์,คีย์บอร์ดหรือหูฟัง</p>
+    </section>
+    
+    <!-- main content -->
+     <div id ="pr">
+     <h1>Promotion & New Products</h1>
+   </div>
+    
+
+    <section id="services" class="clear">
+      <!-- article 1 -->
+     
+    
+      <article class="one_third">
+        <h2>Logitech G633 + Logitech G502 </h2>
+        <img src="images/pic/1.jpg" alt="">
+        <p>ซื้อหูฟัง Logitech G633 Artemis Spectrum RGB 7.1 Surround + เมาส์ Logitech G502 Proteus Spectrum - RGB</p>
+        <p>ราคา 5,590 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+      </article>
+      <!-- article 2 -->
+      <article class="one_third">
+        <h2>Logitech G512 + Logitech G703</h2>
+        <img src="images/pic/2.jpg" alt="">
+        <p>ซื้อหูฟัง Logitech G512 RGB Romer-G Mechanical Gaming Keyboard + เมาส์ Logitech G703 Wireless</p>
+        <p>ราคา 6,590 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+      </article>
+      <!-- article 3 -->
+      <article class="one_third lastbox">
+        <h2>TteSports MEKA PRO CHERRY MX Blue Gaming Keyboard - Key Thai</h2>
+        <img src="images/pic/3.png" alt="">
+        <p>ด้วยประสิทธิภาพของ Cherry MX Blue switch จึงทำให้สัมผัสเวลากดปุ่มมีความหนักแน่นมากยิ่งขึ้น เสียงขณะกดปุ่มนั้นเป็นเสียงที่ แน่นสามารถกดได้ง่ายตามคุณสมบัติของ Blue Switch ที่เป็น Switch 2 จังหวะ ตอบสนองได้ไว</p>
+        <p>ราคา 2,690 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+      </article>
+    </section>
+   
+<div id ="pr">
+     <h1>Headset</h1>
+   </div>
+   <div id ="colorbg">
+
+    <section class="last clear">
+      <article class="one_third">
+        <h2>Sennheiser GSP 350 PC Gaming Headset Surround Sound </h2>
+        <img src="images/pic/4.png" alt="">
+        <p>ราคา 3,990 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+
+        <article class="one_third">
+        <h2>Cooler Master CM Strom MasterPulse MH320 Gaming Headset</h2>
+        <img src="images/pic/5.png" alt="">
+       <p>ราคา 2,690 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+
+        <article class="one_third lastbox">
+        <h2>Logitech G433 Surround Sound 7.1 Gaming Headset With DTS - Black</h2>
+        <img src="images/pic/6.png" alt="">
+        <p>ราคา 3,690 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+    </section>
+</div>
+
+<div id ="pr">
+     <h1>Keyboard</h1>
+   </div>
+   <div id ="colorbg">
+
+    <section class="last clear">
+      <article class="one_third">
+        <h2>Logitech G512-Linear RGB Mechanical Keyboard</h2>
+        <img src="images/pic/kb1.png" alt="">
+        <p>ราคา 4,499 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+
+        <article class="one_third">
+        <h2>Cooler Mater MasterKeys Lite L Gaming Keyboard</h2>
+        <img src="images/pic/kb2.png" alt="">
+       <p>ราคา 1,190 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+
+        <article class="one_third lastbox">
+        <h2>Cooler Master MasterSet MS120 Gaming Set</h2>
+        <img src="images/pic/kb3.png" alt="">
+        <p>ราคา 1,990 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+
+        <section class="last clear">
+      <article class="one_third">
+        <h2>Corsair K63 Wireless Mechanical Keyboard Cherry MX Red (ENG)</h2>
+        <img src="images/pic/kb4.png" alt="">
+        <p>ราคา 4,590 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+
+        <article class="one_third">
+        <h2>Fnatic RUSH Gaming Keyboard (ENG) - Cherry MX Blue Switch</h2>
+        <img src="images/pic/kb5.png" alt="">
+       <p>ราคา 2,690 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+
+        <article class="one_third lastbox">
+        <h2>Cougar 500K Gaming Keyboard</h2>
+        <img src="images/pic/kb6.png" alt="">
+        <p>ราคา 1,190 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+ </section>
+</div>
+
+<div id ="pr">
+     <h1>Mouse&Mouse Pad</h1>
+   </div>
+   <div id ="colorbg">
+
+    <section class="last clear">
+      <article class="one_third">
+        <h2>Mionix Castor Black Optical Gaming Mouse - Black</h2>
+        <img src="images/pic/m1.png" alt="">
+        <p>ราคา 2,390 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+
+        <article class="one_third">
+        <h2>Logitech Pro Gaming Mouse for Esport Pros</h2>
+        <img src="images/pic/m2.png" alt="">
+       <p>ราคา 1,990 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+
+        <article class="one_third lastbox">
+        <h2>Marvo M508 3200 DPI Gaming Mouse</h2>
+        <img src="images/pic/m3.png" alt="">
+        <p>ราคา 360 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+
+        <section class="last clear">
+      <article class="one_third">
+        <h2>Zowie P-SR Gaming Mousepad (Speed)</h2>
+        <img src="images/pic/mp1.png" alt="">
+        <p>ราคา 1,090 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+
+        <article class="one_third">
+        <h2>COUGAR Arena Gaming Mouse Pad (Speed)</h2>
+        <img src="images/pic/mp2.png" alt="">
+       <p>ราคา 890 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+
+        <article class="one_third lastbox">
+        <h2>Fnatic Focus Gaming Mousepad - Size XL</h2>
+        <img src="images/pic/mp3.png" alt="">
+        <p>ราคา 690 บาท</p>
+        <footer class="more"><button onclick="addcart()">add to cart</button></footer>
+        </article>
+ </section>
+</div>
+    
+    <!-- / content body -->
+  </div>
+</div>
+<!-- footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">www.longtimedosee.com<br>"คิดถึงเกมมิ่งเกียร์คิดถึงเรา"</p>
+    <div id="contactpic">
+      <img src="images/pic/pay.png">
+    </div>
+</div>
+</body>
+</html>
